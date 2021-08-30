@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\joezid\Source\Repos\fword_02\fword_02\Source.cpp(882,1): warning C4102: 'Correct': unreferenced label
+C:\Users\joezid\Source\Repos\fword_02\fword_02\Source.cpp(885): warning C4731: 'input_check': frame pointer register 'ebp' modified by inline assembly code
+C:\Users\joezid\Source\Repos\fword_02\fword_02\Source.cpp(890): warning C4731: 'input_check': frame pointer register 'ebp' modified by inline assembly code
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1010,5): warning MSB8015: All source files are not up-to-date:  forcing a rebuild of all source files due to the contents of 'C:\Users\joezid\Source\Repos\fword_02\fword_02\Debug\fword_02.tlog\link.command.1.tlog' being invalid.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1010,5): warning MSB8015: All source files are not up-to-date:  forcing a rebuild of all source files due to the contents of 'C:\Users\joezid\Source\Repos\fword_02\fword_02\Debug\fword_02.tlog\link.command.1.tlog' being invalid.
+  fword_02.vcxproj -> C:\Users\joezid\Source\Repos\fword_02\Debug\fword_02.exe

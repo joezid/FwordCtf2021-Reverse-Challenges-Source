@@ -1,0 +1,7 @@
+﻿  Source.cpp
+C:\Users\joezid\Source\Repos\fword_02\fword_02\Source.cpp(7,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\joezid\Source\Repos\fword_02\fword_02\Source.cpp(8,3): error C2065: 'mov': undeclared identifier
+C:\Users\joezid\Source\Repos\fword_02\fword_02\Source.cpp(8,7): error C2146: syntax error: missing ';' before identifier 'edi'
+C:\Users\joezid\Source\Repos\fword_02\fword_02\Source.cpp(8,7): error C2065: 'edi': undeclared identifier
+C:\Users\joezid\Source\Repos\fword_02\fword_02\Source.cpp(9,7): error C3260: 'identifier': skipping unexpected token(s) before lambda body
+C:\Users\joezid\Source\Repos\fword_02\fword_02\Source.cpp(904,1): fatal error C1004: unexpected end-of-file found

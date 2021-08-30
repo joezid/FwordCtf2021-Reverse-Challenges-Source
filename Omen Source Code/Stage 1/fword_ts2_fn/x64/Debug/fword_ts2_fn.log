@@ -1,0 +1,19 @@
+﻿  Source.cpp
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(11,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(13,4): error C2065: 'pushfd': undeclared identifier
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(14,4): error C2146: syntax error: missing ';' before identifier 'mov'
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(14,4): error C2065: 'mov': undeclared identifier
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(14,8): error C2146: syntax error: missing ';' before identifier 'dword'
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(14,8): error C2065: 'dword': undeclared identifier
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(14,14): error C2146: syntax error: missing ';' before identifier 'ptr'
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(14,14): error C2065: 'ptr': undeclared identifier
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(14,18): error C2065: 'esp': undeclared identifier
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(15,4): error C2146: syntax error: missing ';' before identifier 'popfd'
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(15,4): error C2065: 'popfd': undeclared identifier
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(16,4): error C2146: syntax error: missing ';' before identifier 'nop'
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(16,4): error C2065: 'nop': undeclared identifier
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(17,3): error C2143: syntax error: missing ';' before '}'
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(95,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(95,8): error C2065: 'call': undeclared identifier
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(95,13): error C2146: syntax error: missing ';' before identifier 'image'
+C:\Users\joezid\Source\Repos\fword_ts2_fn\fword_ts2_fn\Source.cpp(97,2): error C2143: syntax error: missing ';' before 'return'
