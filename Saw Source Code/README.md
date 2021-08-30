@@ -11,6 +11,7 @@
 First stage uses process hollowing to execute the second stage ,The first stage have two anti debug techniques BeingDebug byte from PEB and NtGlobalFlag 
 
 https://anti-debug.checkpoint.com/techniques/debug-flags.html#manual-checks-peb-beingdebugged-flag
+
 https://anti-debug.checkpoint.com/techniques/debug-flags.html#manual-checks-ntglobalflag
 
 and contains an anti analysis technique to hide the flow by executing int3 which will raise EXCEPTION_EXECUTE_HANDLER  then will jump to the right flow
@@ -18,11 +19,13 @@ and contains an anti analysis technique to hide the flow by executing int3 which
 https://anti-debug.checkpoint.com/techniques/exceptions.html#hiding-cf-with-eh
 
 After that you will move to the normal process hollowing functions you can read more about it in 
+
 https://attack.mitre.org/techniques/T1055/012/
 
 a small breakpoint in WriteProcessMemory is enough to extract the the second stage.
 To run the second stage you have to fix the permissions of the sections.
 Then you will find an anti analysis trick called Opaque Predicates
+
 https://n1ght-w0lf.github.io/malware%20analysis/smokeloader/#opaque-predicates
 
 And finally you will find the flag checking which is done by checking each bit of the flag.
