@@ -1,5 +1,5 @@
 from random import randrange
-with open("Flag.txt",'r') as f:
+with open("Full_input.txt",'r') as f:
     x=f.read()
 rand_ind_bit=[]
 while True:
