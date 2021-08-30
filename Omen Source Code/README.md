@@ -19,5 +19,5 @@ By extracting all the constrains we can use z3 to solve it and get the flag.
 2. Add them to Stage 2 input_check function.
 3. Compile the first stage and use this tool to convert it to a shellcode using this tool https://github.com/hasherezade/pe_to_shellcode
 4. Encrypt the generated shellcode using RC4 with the key 0x61
-5. Change the data in enc array and compile the second stage.
+5. Change the data in enc array with the new encrypted data and compile the first stage.
 6. Happy Reversing :D
