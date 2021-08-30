@@ -29,3 +29,15 @@ Then you will find an anti analysis trick called Opaque Predicates
 https://n1ght-w0lf.github.io/malware%20analysis/smokeloader/#opaque-predicates
 
 And finally you will find the flag checking which is done by checking each bit of the flag.
+
+
+## Compilation Steps:
+
+1. Generate all the randome checks using Assembly_Generator.py script.
+2. Add all the assembly instructions to input_check.
+3. Compile the second stage.
+
+## Stage 1 Code
+
+Unfortunately i lost the code of the first stage ,Anyway the code of the first stage was quite intersting with dynamic api resolving and process hollowing.
+
