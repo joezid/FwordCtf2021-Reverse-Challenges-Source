@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\joezid\Source\Repos\Fword_01\Fword_01\Source.cpp(25613,1): warning C4102: 'Correct': unreferenced label
+C:\Users\joezid\Source\Repos\Fword_01\Fword_01\Source.cpp(25616): warning C4731: 'input_check': frame pointer register 'ebp' modified by inline assembly code
+C:\Users\joezid\Source\Repos\Fword_01\Fword_01\Source.cpp(25621): warning C4731: 'input_check': frame pointer register 'ebp' modified by inline assembly code
+  Fword_01.vcxproj -> C:\Users\joezid\Source\Repos\Fword_01\Debug\Fword_01.exe
